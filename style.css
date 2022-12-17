@@ -1,0 +1,166 @@
+
+
+
+body{
+    color:cadetblue;
+    margin:0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+hr{
+    position: relative;
+    top:30px;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 90px;
+    margin-top: 50px auto 0 auto;
+    color:#1B1B3A;
+    
+    
+}
+h2{
+    color: #11999E;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+h3{
+    color:darkgreen;
+}
+
+p{
+    position: static;
+    top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 2;
+}
+
+hr{
+    border: dotted;
+    color:azure, 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px, auto, 100px, auto; 
+
+
+}
+
+
+.alessio{
+    width: 20%;
+    margin: auto;
+}
+
+.title-container{
+    background-color: cornsilk;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    background-image: url(https://i.pinimg.com/originals/ec/03/b6/ec03b6e929950978ca497fa7f2504ba2.jpg);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.intro{
+    width:40% ;
+    margin:40px auto;
+}
+
+.middle-container{
+    margin: 100px 0px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.coding{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.problem{
+    width:30%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.lavorogruppo{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+}
+
+.bottom-container{
+    height: 100px;
+    width: 100%; 
+    background-color:#1B1B3A;
+    position: relative;
+    top:80px;
+}
+
+.instagram{
+    color: cadetblue;
+}
+
+.facebook{
+    color: cadetblue;
+}
+
+.myfirstwebsite{
+    color: cadetblue;
+}
+/**********Display*******
+Block = sono quelli che occupano l'intera pagina web, impedendo in modo efficace qualsiasi altro elemento 
+di mettersi accanto a esso.
+I block più comuni sono:
+-Paragrafi
+-Titoli e sottotitoli
+-Div
+-Liste e tag di liste
+-Forms
+(In questo caso, mi occupo di cambiare il display)
+Inline = posso collegare tra loro tutti gli elementi nella stessa linea 
+Inline-block = collegare tra loro nella stessa linea più blocchi.
+None = viene rimosso l'elemento
+Visibility = il blocco viene fittizzamente rimosso; non viene più visualizzato ma rimane nel display.
+
+CSS POSITIONING
+Il contenuto è tutto. Se una parola è breve, la lunghezza è breve(eccetera).Il contenuto è la prima cosa che determina
+quanto vengono visualizzate le cose grandi e quali saranno l'altezza e la larghezza.
+L'ordine del contenuto è dettato dal codice HTML.
+Indice Z, determina quale elemento verrà visualizzato sull'altro. Di default i nostri elementi HTML che sono figli, siederanno
+sopra l'elemento genitore. La gerarchia è priamidale. 
+
+Proprietà position:
+Static = seguuire le regole di HTMl e mantenere il suo flusso. 
+Relative = posizionare l'elemento che selezioniamo rispetto a come sarebbe stato se fosse rimasto statico. Importante ricordare che le cose nel layout non si accavallano
+4 coordinate:
+Top
+Bottom
+Left 
+Right
+Absolute = l'elemento si sposterà dall'altra parte del display, lasciando i px indicati dalla parte in cui la porzione di display è minore.  
+Fixed = la parte interessata rimarrà in quella posizione anche se la pagine scorre
+
+
+text align = utilizzato per spostare al centro elementi come h1, blocchi e immagini.
+l'altro modo per centrare gli elementi è margin:auto. Utilizzato se devo spostare elementi a blocchi e questi hanno una posizione impostata
+font-family = cambia il fond di tutto il body
+1 em = 16px
+rem = radice em(padre di em)
